@@ -1,0 +1,49 @@
+# **Picturing Paws: Evaluating AI Art**
+
+## **Introducing DALL-E**
+
+OpenAI's [DALL-E 3](https://openai.com/dall-e-3) serves as a generative AI model that creates images from text prompts. Released natively into ChatGTP Plus and ChatGPT Enterprise, users are able to create images that are both unrestricted to a certain style and open to "tweaks" or further edits in order to align it more closely to the intended subject.
+
+<br>
+
+More specifically, DALL-E "is a 12-billion parameter version of GPT-3"...[therefore, like] GPT-3, DALL-E is a transformer language model. It receives both the text and the image as a single stream of data containing up to 1280 tokens (any symbol from a discrete vocabulary), and is trained used maximum likelihood to generate all of the tokens, one after another. This training procedure allows DALL-E to not only generate an image from scratch, but also to regenerate any rectangular region of an existing image that extends to the bottom-right corner, in a way that is consistent with the text prompt".
+
+Thus allowing users to do things such as this!
+
+*Insert Picture of Hedgehog*
+
+<br>
+
+### **Other Cool Capabilities of Generative AI**
+
+Extending even beyond still images, a team of publically famous digital animators on YouTube-- Corridor Crew, even managed to transform a live action short film into its equivalant animated doppleganger by asking AI to reconstruct their shots into a more illustrated, comic-esque style. And using this method they managed to produce a full-length short film! Showcasing the potential for Generative AI in creative works.
+
+<br>
+
+
+**Corridor Crew Process**: [Did We Just Change Animation Forever?](https://www.youtube.com/watch?v=_9LX9HSQkWo&ab_channel=CorridorCrew)
+
+**Corridor Crew Short Film** [Video Link](https://www.youtube.com/watch?v=GVT3WUa-48Y)
+
+
+<br>
+
+### **Ethical Concerns**
+
+However, Generative AI-- in particular AI generated images, has unintentionally served as an accomplice to copyright infringement cybercrime.
+
+<br>
+
+
+Generative AI however is associated with concerns revolving [copyright infringement](https://www.copyright.gov/help/faq/faq-definitions.html#:~:text=As%20a%20general%20matter%2C%20copyright,permission%20of%20the%20copyright%20owner.)-- or when a copyrighted work is used without the permission of the respective owner or artist in question. Certain artists for instance have had their work unknowingly entered into databases without consent and in many cases been left without the option to opt out of such practices.
+
+<br>
+
+In addition to this, the FBI, in an [article](https://timesofindia.indiatimes.com/gadgets-news/scammers-using-ai-to-make-sexually-explicit-content-extort-victims-fbi/articleshow/100856184.cms) releasd earlier this year, has stated that they have "recieved an increasing number of reports of 'sextortion', a type of extortion tactic wherein criminals trick a victim into providing financial beneifts by threreatening to reveal an explicit or secually-themed photo"...cybercriminals [are reportedly finding] images of a victim on social media and then [editing] them using AI to make them look realistic and sexually-explicit." Thus prompting a newfound concern and need for the general public to exercise caution when posting personal photos online.
+
+<br>
+
+
+### **Purpose**
+
+Taking motivation from these listed issues, we wanted to evaluate DALLE-3's ability to create realistic images by using AWS Rekognition to distinguish between real and AI-generated images.
